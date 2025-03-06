@@ -1,7 +1,25 @@
 {
   "compilerOptions": {
-    "strict": true,
+    // Features
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
+    "module": "NodeNext",
+    "jsxImportSource": "hono/jsx",
     "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx"
+
+    // Bundler mode
+    "verbatimModuleSyntax": true,
+    "types": ["node"],
+
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+
+    // Strict Flags
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noPropertyAccessFromIndexSignature": false
+
+    // Path references
   }
 }
