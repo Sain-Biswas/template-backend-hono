@@ -40,6 +40,10 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
+# Database
+.drizzle/
+*.db
+
 # IntelliJ based IDEs
 .idea
 

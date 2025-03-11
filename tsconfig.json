@@ -3,13 +3,18 @@
     // Features
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
-    "module": "NodeNext",
+    "module": "ES6",
     "jsxImportSource": "hono/jsx",
     "jsx": "react-jsx",
 
     // Bundler mode
     "verbatimModuleSyntax": true,
     "types": ["node"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
 
     // Best practices
     "strict": true,
