@@ -18,8 +18,11 @@
     // Strict Flags
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
 
     // Path references
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   }
 }
